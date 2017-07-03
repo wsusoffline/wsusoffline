@@ -903,5 +903,6 @@ Version 9.2.2 -- 03.07.17
 - Excluded '-embedded-' updates
 - Excluded obsolete October 2013 Cumulative security update kb2879017 (MS13-080) for Internet Explorer 7
 - Fix: Adjusted sigcheck.exe parameters to work with most recent version 2.55
+- Fix: Removed unavailable static download links for kb953356, kb969084, rootsupd.exe and rvkroots.exe
 - Fix: Download part erroneously excluded Security Updates kb958644, kb2378111, kb2478971 and kb2712808
 --------------------------------------------------------------------------------
