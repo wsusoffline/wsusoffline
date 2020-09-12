@@ -1,4 +1,5 @@
 .svn\
+.git\
 ico\
 Include\
 Aut2Exe.exe
