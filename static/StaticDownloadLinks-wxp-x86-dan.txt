@@ -1,5 +1,5 @@
 http://xpsp.dlservice.microsoft.com/download/9/8/2/982c99b3-d968-4a5c-973e-12e97a38bbf9/WindowsXP-KB936929-SP3-x86-DAN.exe
-http://download.microsoft.com/download/6/C/7/6C7378B7-9CFC-4656-8A68-12FA18D8B22A/WindowsXP-KB969084-x86-dan.exe
+http://download.windowsupdate.com/msdownload/update/software/updt/2009/11/windowsxp-kb969084-x86-dan_1a43a84c96e599d4a92b476fa8f5ae00a7dc0208.exe,WindowsXP-KB969084-x86-dan.exe
 http://download.microsoft.com/download/7/B/2/7B2F3C3E-2ED9-4467-A8EC-98CEC318FDE3/WindowsXP-KB968930-x86-DAN.exe
 http://www.download.windowsupdate.com/msdownload/update/v3-19990518/cabpool/wmp11-windowsxp-x86-da-dk_eac60a19767790e10ca9f02e7a91240be7b4465c.exe,wmp11-windowsxp-x86-DA-DK.exe
 http://download.windowsupdate.com/msdownload/update/software/secu/2011/09/windows-da-dk-kb2564958_1dd556474f9b4d098e3a01237c9017d97d7cd3df.exe
