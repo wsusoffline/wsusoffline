@@ -1,7 +1,7 @@
 http://xpsp.dlservice.microsoft.com/download/4/7/4/474e6c1a-fd6d-464e-bf50-65e928fd2d1b/WindowsXP-KB936929-SP3-x86-FIN.exe
-http://download.windowsupdate.com/msdownload/update/software/updt/2009/11/windowsxp-kb969084-x86-fin_81ba4dad45421866c1952356a34f58b06a91c89f.exe,WindowsXP-KB969084-x86-fin.exe
+http://download.windowsupdate.com/msdownload/update/software/updt/2009/11/windowsxp-kb969084-x86-fin_81ba4dad45421866c1952356a34f58b06a91c89f.exe
 http://download.microsoft.com/download/8/0/8/808E6B2D-02B2-43F1-BB17-A2BDE211812A/WindowsXP-KB968930-x86-FIN.exe
-http://www.download.windowsupdate.com/msdownload/update/v3-19990518/cabpool/wmp11-windowsxp-x86-fi-fi_2226655f6bf8565892f99d3d5e3754c0ccbc18fd.exe,wmp11-windowsxp-x86-FI-FI.exe
+http://www.download.windowsupdate.com/msdownload/update/v3-19990518/cabpool/wmp11-windowsxp-x86-fi-fi_2226655f6bf8565892f99d3d5e3754c0ccbc18fd.exe
 http://download.windowsupdate.com/msdownload/update/software/secu/2011/09/windows-fi-fi-kb2564958_8fff29379187e88bbcc0972ec2009f77d9ded948.exe
 http://download.microsoft.com/download/D/7/E/D7EF7F76-6A7A-49B9-96AC-5B6D9AB9281D/WindowsXP-KB4012598-x86-Custom-FIN.exe
 http://download.microsoft.com/download/5/6/B/56B851DA-A825-48E5-B1D9-AE5B4385FEDD/WindowsXP-KB4012583-x86-Custom-FIN.exe

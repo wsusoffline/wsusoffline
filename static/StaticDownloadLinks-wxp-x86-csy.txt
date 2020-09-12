@@ -1,7 +1,7 @@
 http://xpsp.dlservice.microsoft.com/download/5/0/4/5046394b-32df-4628-a300-64209a719db6/WindowsXP-KB936929-SP3-x86-CSY.exe
-http://download.windowsupdate.com/msdownload/update/software/updt/2009/11/windowsxp-kb969084-x86-csy_cea0835514c90263b6f7c9501be76493106ae965.exe,WindowsXP-KB969084-x86-csy.exe
+http://download.windowsupdate.com/msdownload/update/software/updt/2009/11/windowsxp-kb969084-x86-csy_cea0835514c90263b6f7c9501be76493106ae965.exe
 http://download.microsoft.com/download/4/3/C/43CA5981-5004-4097-9655-F7DBBD47E0CF/WindowsXP-KB968930-x86-CSY.exe
-http://www.download.windowsupdate.com/msdownload/update/v3-19990518/cabpool/wmp11-windowsxp-x86-cs-cz_b64301768a20e53e8ab92ea6ee34608e4321e7ca.exe,wmp11-windowsxp-x86-CS-CZ.exe
+http://www.download.windowsupdate.com/msdownload/update/v3-19990518/cabpool/wmp11-windowsxp-x86-cs-cz_b64301768a20e53e8ab92ea6ee34608e4321e7ca.exe
 http://download.windowsupdate.com/msdownload/update/software/secu/2011/09/windows-cs-cz-kb2564958_0a3a9da838c98679f3b2fb8490d08bfa6d42ffaf.exe
 http://download.microsoft.com/download/1/E/B/1EB1DCCA-41E6-4FA0-AF4F-9BFE74071D45/WindowsXP-KB4012598-x86-Custom-CSY.exe
 http://download.microsoft.com/download/9/3/D/93D5CCC6-85F5-4136-866F-36F36BAA1189/WindowsXP-KB4012583-x86-Custom-CSY.exe

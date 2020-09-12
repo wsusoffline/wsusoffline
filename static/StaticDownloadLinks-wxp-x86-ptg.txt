@@ -1,7 +1,7 @@
 http://xpsp.dlservice.microsoft.com/download/b/6/3/b633eaca-8fc7-4471-a459-577df014c99f/WindowsXP-KB936929-SP3-x86-PTG.exe
-http://download.windowsupdate.com/msdownload/update/software/updt/2009/11/windowsxp-kb969084-x86-ptg_81a1ca70594377d5af3056304d5e40c63be1f2a7.exe,WindowsXP-KB969084-x86-ptg.exe
+http://download.windowsupdate.com/msdownload/update/software/updt/2009/11/windowsxp-kb969084-x86-ptg_81a1ca70594377d5af3056304d5e40c63be1f2a7.exe
 http://download.microsoft.com/download/A/6/4/A64B09B6-11E4-4202-848B-F86A4F6AF770/WindowsXP-KB968930-x86-PTG.exe
-http://www.download.windowsupdate.com/msdownload/update/v3-19990518/cabpool/wmp11-windowsxp-x86-pt-pt_a41c7d1ce9dee786c4abf9477f095b0ea9df6156.exe,wmp11-windowsxp-x86-PT-PT.exe
+http://www.download.windowsupdate.com/msdownload/update/v3-19990518/cabpool/wmp11-windowsxp-x86-pt-pt_a41c7d1ce9dee786c4abf9477f095b0ea9df6156.exe
 http://download.windowsupdate.com/msdownload/update/software/secu/2011/09/windows-pt-pt-kb2564958_1be65fc21ea6078c1581b34abcaa0aca15cdbd83.exe
 http://download.microsoft.com/download/4/4/A/44A1960F-7DF6-48BA-ACBA-B351FA358DC1/WindowsXP-KB4012598-x86-Custom-PTG.exe
 http://download.microsoft.com/download/8/E/5/8E5AF7D2-5A96-4EA2-B807-6AFB0BD0C11D/WindowsXP-KB4012583-x86-Custom-PTG.exe

@@ -1,7 +1,7 @@
 http://xpsp.dlservice.microsoft.com/download/c/3/e/c3ea9fa6-d8e6-4832-8795-06dd27be9bc9/WindowsXP-KB936929-SP3-x86-FRA.exe
-http://download.windowsupdate.com/msdownload/update/software/updt/2009/11/windowsxp-kb969084-x86-fra_ce1e6c4b68f040f6cfafdc2547698a2b3849f5e5.exe,WindowsXP-KB969084-x86-fra.exe
+http://download.windowsupdate.com/msdownload/update/software/updt/2009/11/windowsxp-kb969084-x86-fra_ce1e6c4b68f040f6cfafdc2547698a2b3849f5e5.exe
 http://download.microsoft.com/download/E/F/C/EFCF6616-2240-4464-865A-77C91E154614/WindowsXP-KB968930-x86-FRA.exe
-http://www.download.windowsupdate.com/msdownload/update/v3-19990518/cabpool/wmp11-windowsxp-x86-fr-fr_614eef4c7563eea4e2097d4270666e5ea58dfeaf.exe,wmp11-windowsxp-x86-FR-FR.exe
+http://www.download.windowsupdate.com/msdownload/update/v3-19990518/cabpool/wmp11-windowsxp-x86-fr-fr_614eef4c7563eea4e2097d4270666e5ea58dfeaf.exe
 http://download.windowsupdate.com/msdownload/update/software/secu/2011/09/windows-fr-fr-kb2564958_542a9a2adc8fd7a40aa6deb756f156da1562b767.exe
 http://download.microsoft.com/download/3/8/9/389FC096-C119-4A60-807D-4BC29F3593BD/WindowsXP-KB4012598-x86-Custom-FRA.exe
 http://download.microsoft.com/download/3/6/8/368871A7-833E-41B9-8705-2C3FAFAEAC02/WindowsXP-KB4012583-x86-Custom-FRA.exe
