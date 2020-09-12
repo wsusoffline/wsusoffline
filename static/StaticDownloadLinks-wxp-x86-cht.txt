@@ -1,7 +1,7 @@
 http://xpsp.dlservice.microsoft.com/download/2/2/a/22a44f8b-2f1b-46a9-940a-cf4099fd1de9/WindowsXP-KB936929-SP3-x86-CHT.exe
 http://download.microsoft.com/download/5/8/E/58E5DF55-EAB4-404E-B3F5-BE9586C4163D/WindowsXP-KB969084-x86-cht.exe
 http://download.microsoft.com/download/5/8/C/58CFCB02-FDF4-4C21-89B0-20F4E902976D/WindowsXP-KB968930-x86-CHT.exe
-http://download.microsoft.com/download/b/c/6/bc6d3921-1f44-4c2a-9262-0e779b6a6f89/wmp11-windowsxp-x86-zh-tw.exe
+http://www.download.windowsupdate.com/msdownload/update/v3-19990518/cabpool/wmp11-windowsxp-x86-zh-tw_2930d41471e924d06f4926cd7a0bbaee170bd26f.exe,wmp11-windowsxp-x86-zh-tw.exe
 http://download.windowsupdate.com/msdownload/update/software/secu/2011/09/windows-zh-tw-kb2564958_6e6f564efa6b8969ae84685d18e936c2ec9636b0.exe
 http://download.microsoft.com/download/2/1/6/21640763-50A9-496F-ADB0-7577AE11490A/WindowsXP-KB4012598-x86-Custom-CHT.exe
 http://download.microsoft.com/download/E/8/D/E8DA1BC2-265B-4FFE-9A86-9205C11413BF/WindowsXP-KB4012583-x86-Custom-CHT.exe
