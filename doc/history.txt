@@ -1,4 +1,4 @@
-................................................................................
+ï»¿................................................................................
 WSUS Offline Update 9.2.2
 Author: Torsten Wittrock                      (mailto:twittrock@wsusoffline.net)
 ................................................................................
@@ -10,7 +10,7 @@ German article: "Selfmade Service Pack - Windows-Updates ohne Internet-Verbindun
 
 Publications Version 4.0
 ~~~~~~~~~~~~~~~~~~~~~~~~
-German article: "Patch-Konserven - Selbstgeschnürte Service Packs für Windows und Office" (c't 22/07, S. 212ff; http://www.heise.de/kiosk/archiv/ct/2007/22/212; http://www.heise.de/software/download/special/ct_offline_update/8_1)
+German article: "Patch-Konserven - SelbstgeschnÃ¼rte Service Packs fÃ¼r Windows und Office" (c't 22/07, S. 212ff; http://www.heise.de/kiosk/archiv/ct/2007/22/212; http://www.heise.de/software/download/special/ct_offline_update/8_1)
 
 Publications Version 6.0
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -62,10 +62,10 @@ Version 3.04 -- 22.03.07
 --------------------------------------------------------------------------------
 Version 3.11 -- 05.05.07
 - Dutch language support added (Thanks to Lars van Jeurissen)
-- Spanish language support added (Thanks to Javier Marín)
+- Spanish language support added (Thanks to Javier MarÃ­n)
 - French language support added (Thanks to Tim Endres)
 - Portuguese language support added (Thanks to Berit Jensen)
-- Brazilian language support added (Thanks to Stefan Jöhnke)
+- Brazilian language support added (Thanks to Stefan JÃ¶hnke)
 - DownloadStarterGUI.exe saves settings now
 - UpdateStarterGUI.exe checks availability of Windows Script Host now
 - DoUpdate.cmd and UpdateStarterGUI.exe support /nobackup parameter now (installs updates without saving uninstallation info)
@@ -183,7 +183,7 @@ Version 5.0 -- 15.09.08
 - Optional download and installation of .NET Framework 3.5 SP1 on Windows XP, Vista and Server 2003/2008 systems (enh. #37, thanks to "ncoker" and Rene Schimmer)
 - Optional installation of most recent DirectX End-User Runtimes (enh. #37, thanks to "ncoker" and Rene Schimmer)
 - Download of Operating Systems' updates may preferentially be redirected to a local WSUS server
-- Number of updates to download and to install will be displayed and logged (Thanks to Stefan Jöhnke and "-TomW-")
+- Number of updates to download and to install will be displayed and logged (Thanks to Stefan JÃ¶hnke and "-TomW-")
 - Integrity of updates may be verified on subsequent download runs
 - DVD ISO images will be split into x86- and x64-products since ISO file sizes exceeded 4.7 GB (max. capacity of DVD-5 media)
 - Windows Installer 4.5 integrated for Windows XP, Vista and Server 2003/2008 systems
@@ -222,7 +222,7 @@ Version 5.1 -- 22.02.09
 - Fix: Office updates were re-downloaded if WSUS was configured (Thanks to "rs5")
 - Fix (defect #49): Invalid parameters for kb947742 (patch for .NET Framework 1.1 SP1) caused installation failures (Thanks to "joehtg")
 - Fix: Installation of Office 2000 Service Release 1a (O2KSR1aDL.EXE) lead to erroneous failure (Thanks to Christof Giesers)
-- Fix: Microsoft removed WindowsXP-Windows2000-Script56-KB917344-x86-hun.exe (Thanks to "toroimre" and Tamás Winkler)
+- Fix: Microsoft removed WindowsXP-Windows2000-Script56-KB917344-x86-hun.exe (Thanks to "toroimre" and TamÃ¡s Winkler)
 - Fix: Temporary installation directories for Office updates were possibly not removed (Thanks to "blind-fish" and "Schraps")
 - Fix: XSLT filters for Windows 2000 missed kb951698-v2 (Thanks to "miramax")
 - Fix: Notepad.exe was not found in %SystemRoot% under Windows Server 2008 (Thanks to Christof Giesers)
@@ -246,7 +246,7 @@ Version 5.2 -- 20.03.09
 --------------------------------------------------------------------------------
 Version 6.0 -- 20.05.09
 - INSTALLATION HINT: In spite of the different directory name inside the archive, you still may unpack v. 6.0 into an existing structure, overwriting existing files
-- Download scripts for Linux added (Thanks to Tobias Breitling and Stefan Jöhnke)
+- Download scripts for Linux added (Thanks to Tobias Breitling and Stefan JÃ¶hnke)
 - USB stick option added to UpdateGenerator script (Thanks to Christian Riedel)
 - Service Packs 2 for Office 2007 and Office Compatibility Pack integrated
 - Optional installation of Windows PowerShell 1.0 on Windows XP, Server 2003 and Vista (x86/x64) systems
@@ -255,7 +255,7 @@ Version 6.0 -- 20.05.09
 - Fix: Internet Explorer 8 wasn't installed on automatic recall runs (Thanks to "NetZwerg")
 - Fix: Office 2000 Service Pack level was not properly detected (Thanks to Mark Gerber)
 - Fix: Office 2000 Service Release 1a (O2KSR1aDL.EXE) would not be installed (Thanks to Mark Gerber)
-- Fix: DownloadUpdates.cmd echoed and logged credentials for proxy access (Thanks to Jörg Watermann)
+- Fix: DownloadUpdates.cmd echoed and logged credentials for proxy access (Thanks to JÃ¶rg Watermann)
 - Fix: Displayed number of statically defined updates to be downloaded was incorrect (Thanks to "blind-fish")
 - Fix (defect #70): WSUS download errors caused re-downloading of existing updates (Thanks to "me")
 - Fix: Microsoft fixed broken URL for WindowsXP-Windows2000-Script56-KB917344-x86-hun.exe (Thanks to Rudolf Finszter)
@@ -273,11 +273,11 @@ Version 6.1 -- 30.07.09
 - Fix: Invalid installation sequence for .NET Framework 3.5 SP1 Family Update (kb958481, kb958483 and kb958484) (Thanks to "siggibaer")
 - Fix: Warning about 'automatic reboot' option removed for Windows Vista and Server 2008 target systems
 - Fix: Invalid conditional statements in DoUpdate.cmd corrected (Thanks to "b737x")
-- Fix (defect #75): Linux download script will now wait for <Enter> confirmation on any user input (Thanks to Stefan Jöhnke)
-- Fix (defect #76): Linux download script will now ask for all required user input before starting downloading (Thanks to Stefan Jöhnke)
-- Fix (defect #77): Linux download script will now call sub-script using /bin/bash <SubScript.sh> (Thanks to Stefan Jöhnke)
+- Fix (defect #75): Linux download script will now wait for <Enter> confirmation on any user input (Thanks to Stefan JÃ¶hnke)
+- Fix (defect #76): Linux download script will now ask for all required user input before starting downloading (Thanks to Stefan JÃ¶hnke)
+- Fix (defect #77): Linux download script will now call sub-script using /bin/bash <SubScript.sh> (Thanks to Stefan JÃ¶hnke)
 - Fix (defect #78): Linux scripts contained invalid shebang (Thanks to "kl_eisbaer")
-- Fix: Further improvements for Linux scripts (Thanks to Walter Schiessberg and Stefan Jöhnke)
+- Fix: Further improvements for Linux scripts (Thanks to Walter Schiessberg and Stefan JÃ¶hnke)
 --------------------------------------------------------------------------------
 Version 6.2 -- 23.10.09
 - Support added for Microsoft Windows 7 and Server 2008 R2
@@ -320,7 +320,7 @@ Version 6.4 -- 12.02.10
 - UpdateGenerator script will now trigger download of .NET Framework components only for the first platform/target selected (Thanks to "Denniss")
 - Info-Zip's UnZip integrated because of persistent FTP download problems - FTP proxy for wget removed because it's not used any longer
 - AutoIt script compiler updated to version 3.3.4.0
-- DirectX End-User Runtimes updated to February 2010 (Thanks to Matthias Köhler)
+- DirectX End-User Runtimes updated to February 2010 (Thanks to Matthias KÃ¶hler)
 - DownloadUpdates.sh script encapsulates wget calls in doWget() function now for easier parameterization (Thanks to "Askan" and "maro")
 - Fix: Windows Vista ISO images and USB copies did not contain .NET Framework 3.5 SP1 Family Update files KB958483 and KB958484 (Thanks to "wsususer")
 - Fix: DoUpdate.cmd script attempted invalid automatic recalls under Windows Vista/7/2008(R2) and was unable to install SPs on Windows 2008 DCs (Thanks to "ksjon" and "DotNet")
@@ -371,7 +371,7 @@ Version 6.6 -- 14.06.10
 - Date of last download / medium creation will be displayed/logged by UpdateGenerator/UpdateInstaller/DoUpdate scripts (Thanks to "automatix")
 - DoUpdate.cmd script will now adjust boot sequence for automatic reboots on Windows Vista, 7 and Server 2008 (R2) systems (Thanks to "NorFie")
 - Update for Root Certificates (rootsupd.exe/kb931125) updated to May 2010 (Thanks to "harry")
-- DirectX End-User Runtimes updated to June 2010 (Thanks to Matthias Köhler and "Denniss")
+- DirectX End-User Runtimes updated to June 2010 (Thanks to Matthias KÃ¶hler and "Denniss")
 - AutoIt script compiler updated to version 3.3.6.1
 - CompileAutoItScripts.cmd script added (Thanks to "boco")
 - DetermineSystemProperties.vbs script detects Office 2010 now
@@ -417,7 +417,7 @@ Version 6.6.2 -- 27.08.10
 --------------------------------------------------------------------------------
 Version 6.6.3 -- 15.09.10
 - Office updates up to 09/2010 integrated by static definitions
-- Prerequisites' checks enhanced for UpdateGenerator (directory substructure) and UpdateInstaller (path properties, see http://msdn.microsoft.com/en-us/library/aa365247(VS.85).aspx) scripts (Thanks to Matthias Köhler)
+- Prerequisites' checks enhanced for UpdateGenerator (directory substructure) and UpdateInstaller (path properties, see http://msdn.microsoft.com/en-us/library/aa365247(VS.85).aspx) scripts (Thanks to Matthias KÃ¶hler)
 - Fix: Missing hash file deletion on download without verification could subsequently lead to false audit errors
 - Fix: Version checks could fail if version strings were of unexpected/abbreviated structure (Thanks to Lars Bassen)
 - Fix: DownloadUpdates.sh script did not evaluate exclude lists because of missing "dos2unix" command (Thanks to "NoKurth" and "nebyah")
@@ -539,11 +539,11 @@ Version 6.8.4 -- 05.05.11
 - Fix: 'Clean up download directories' option will now also affect directories for .NET and MSSE installation files
 --------------------------------------------------------------------------------
 Version 6.8.5 -- 06.06.11
-- DownloadUpdates.sh script will now create hash files for downloaded updates (Thanks to Stefan Jöhnke)
-- DownloadUpdates.sh script will now support optional download of Windows Defender definition files (Thanks to Stefan Jöhnke)
-- DownloadUpdates.sh script will now support custom static and exclude directories (Thanks to Stefan Jöhnke)
+- DownloadUpdates.sh script will now create hash files for downloaded updates (Thanks to Stefan JÃ¶hnke)
+- DownloadUpdates.sh script will now support optional download of Windows Defender definition files (Thanks to Stefan JÃ¶hnke)
+- DownloadUpdates.sh script will now support custom static and exclude directories (Thanks to Stefan JÃ¶hnke)
 - HashDeep utility updated to version 3.9.1
-- Fix: DownloadUpdates.sh and CreateISOImage.sh scripts did not support working directories containing spaces (Thanks to Stefan Jöhnke)
+- Fix: DownloadUpdates.sh and CreateISOImage.sh scripts did not support working directories containing spaces (Thanks to Stefan JÃ¶hnke)
 - Fix: Registry references to WOUTempAdmin profile were not cleaned up (Thanks to Bert Schinkel-Momsen)
 - Fix: Determination of Office and superseded updates caused invalid file system activities (Thanks to "Yaso Kuhl")
 - Fix: Windows 7 / Server 2008 R2 Service Pack 1 (kb976932) was attempted to be installed as a patch (Thanks to "Denniss")
@@ -568,7 +568,7 @@ Version 6.9 -- 01.07.11
 - Fix: "Clean up download directories" functionality could lead to "file not found" error messages (Thanks to "rednaxela")
 --------------------------------------------------------------------------------
 Version 7.0 -- 01.10.11
-- Linux download and ISO creation scripts now support Office again and exclusion of superseded updates (Thanks to Stefan Jöhnke)
+- Linux download and ISO creation scripts now support Office again and exclusion of superseded updates (Thanks to Stefan JÃ¶hnke)
 - Support removed for Office XP since Microsoft discontinued support for it on July 12th, 2011 (see http://support.microsoft.com/lifecycle/?p1=2533)
 - C++ 2010 Runtime Libraries updated to include kb2565063 / MS11-025 (Thanks to "Denniss")
 - Update for Root Certificates (rootsupd.exe/kb931125) download URL updated to provide most recent version always (Thanks to "Gerby")
@@ -611,7 +611,7 @@ Version 7.2 -- 06.12.11
 --------------------------------------------------------------------------------
 Version 7.3 -- 19.01.12
 - Optional installation of most recent Update for Root Certificates (Thanks to "mth404")
-- Superseded updates' determination speeded up for systems running paranoid AV scanners (Thanks to Peter Schöll)
+- Superseded updates' determination speeded up for systems running paranoid AV scanners (Thanks to Peter SchÃ¶ll)
 - HashDeep utility updated to version 4.0.0
 - AutoIt script compiler updated to version 3.3.8.0
 - Removed proprietary, w2k-compatible shutdown/reboot implementation
@@ -834,14 +834,14 @@ Version 8.8 -- 18.11.13
 - On Windows XP (x86) systems without SP3, kb953356 will now be installed before SP3 (Thanks to "nlewis")
 - Service Pack support added for Microsoft Office Viewers (Word, Excel and PowerPoint) (Thanks to "banzeo" and "aker")
 - Excluded Update Rollups 1-3 (kb2781267, kb2824160 and kb2862551) for Windows Server 2012 Essentials
-- Fix: Office multilingual updates' directory (ofc glb) was blown up (Thanks to M. Köhler, "Denniss" and "psj")
+- Fix: Office multilingual updates' directory (ofc glb) was blown up (Thanks to M. KÃ¶hler, "Denniss" and "psj")
 - Fix: Download part missed Security Updates kb2768005 and kb2837618 for Office 2013
 - Fix: AddOffice2010x64Support.cmd script didn't consider StaticDownloadLinks-o2k10-x64-glb.txt (Thanks to "psj")
 - Fix: 'x86-cross-product' ISO images exceeded 4.7 GB (max. capacity of DVD-5 media) and therefore won't any more contain updates for Windows Server 2003
 --------------------------------------------------------------------------------
 Version 8.9 -- 15.01.14
 - AutoIt script compiler updated to version 3.3.10.2
-- Static download URLs for aria2 download utility updated to v. 1.18.3 (Thanks to M. Köhler)
+- Static download URLs for aria2 download utility updated to v. 1.18.3 (Thanks to M. KÃ¶hler)
 - Updated static download URL for untrusted/revoked root certificates (rvkroots.exe/kb2917500)
 - Update scan prerequisite for Windows XP and Server 2003 (x86) systems (latest IEx cumulative security update) will now be dynamically determined (Thanks to "harry" and "aker")
 - UpdateGenerator script now supports variable ini files given as a command line parameter (Thanks to "boco")
@@ -865,7 +865,7 @@ Version 9.0 -- 05.03.14
 - Removed obsolete update scan prerequisite installation for Windows XP (x86) systems (Thanks to "Denniss", "psycx", "Manfred" and the community)
 - Fix: CompileAutoItScripts.cmd script won't any longer use compression for compilation in order to avoid false positive alerts from AV scanners (Thanks to "boco")
 - Fix: Excluded obsolete/superseded cumulative security updates for Internet Explorer under Windows XP/Server 2003 (x64) and 7/Server 2008 R2 (x64) (Thanks to "harry")
-- Fix: Excluded obsolete initial revision of security update for USB drivers (kb2862330) for Windows 7 and Server 2008 R2 (x86/x64) systems (Thanks to M. Köhler)
+- Fix: Excluded obsolete initial revision of security update for USB drivers (kb2862330) for Windows 7 and Server 2008 R2 (x86/x64) systems (Thanks to M. KÃ¶hler)
 - Fix: Removed obsolete static download definitions for kb2862973 (Update for Deprecation of MD5 Hashing Algorithm for Microsoft Root Certificate Program) (Thanks to "boco" and "harry")
 - Fix: Linux download script DownloadUpdates.sh didn't write builddate.txt file (Thanks to "Spider-Mann")
 --------------------------------------------------------------------------------
@@ -873,7 +873,7 @@ Version 9.1 -- 04.04.14
 - NOTE: This version will be the last one supporting Windows XP and Office 2003 (see http://support.microsoft.com/lifecycle/?p1=3223 and http://support.microsoft.com/lifecycle/?p1=2488)
 - Support added for Remote Desktop Connection 8.1 client (kb2830477) on Windows 7 / Server 2008 R2 (x86/x64) systems (Thanks to K. Olbrich)
 - Static download URLs for Microsoft Silverlight updated to v. 5.1.30214.0 (Thanks to "harry")
-- Static download URLs for aria2 download utility updated to v. 1.18.5 (Thanks to M. Köhler)
+- Static download URLs for aria2 download utility updated to v. 1.18.5 (Thanks to M. KÃ¶hler)
 - Fix: 'x86-cross-product' ISO images exceeded 4.7 GB (max. capacity of DVD-5 media) and therefore won't any longer contain updates for Windows XP and Office 2003 / 2007 and installation files for .NET 3.5 SP1 / 4.0
 - Fix: RemoveGermanLanguageSupport.cmd script didn't consider StaticDownloadLinks-dotnet.txt (Thanks to "rubasik")
 - Fix: Version determination of Sysinternals' Sigcheck tool will now default to v. 2.x (Thanks to "aker")
