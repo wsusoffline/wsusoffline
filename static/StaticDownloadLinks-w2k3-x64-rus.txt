@@ -1,4 +1,4 @@
-http://download.microsoft.com/download/3/6/E/36E79530-6378-4BCD-AD6D-DF4BA55545EE/WindowsServer2003-KB968930-x64-RUS.exe
+http://download.windowsupdate.com/msdownload/update/software/updt/2009/11/windowsserver2003-kb968930-x64-rus_1dabe03aded05824daf00a7cdf2b43c5538212d3.exe
 http://download.windowsupdate.com/msdownload/update/software/secu/2011/09/windows-ru-ru-kb2564958_be6d93fb80c649c77356c9d35038abc7ff52d919.exe
 http://download.microsoft.com/download/6/4/5/645fed5f-a6e7-44d9-9d10-fe83348796b0/wic_x64_rus.exe
 http://download.microsoft.com/download/0/5/0/050CF421-7CB7-406F-BBC6-185DACD15F63/WindowsServer2003-KB3011780-x64-RUS.exe

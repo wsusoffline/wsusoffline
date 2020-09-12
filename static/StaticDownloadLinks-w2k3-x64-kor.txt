@@ -1,4 +1,4 @@
-http://download.microsoft.com/download/2/E/2/2E22513E-3BAE-461C-ABEE-AB6EF93B4492/WindowsServer2003-KB968930-x64-KOR.exe
+http://download.windowsupdate.com/msdownload/update/software/updt/2009/11/windowsserver2003-kb968930-x64-kor_a33fc0de95e6a05b1e273613a2c2f1cf9aed9861.exe
 http://download.windowsupdate.com/msdownload/update/software/secu/2011/09/windows-ko-kr-kb2564958_e32d3f4a3f7ad638961343282484fbb3471b5ca8.exe
 http://download.microsoft.com/download/6/D/F/6DF1D3DF-5D54-4500-8B8B-24DC05F79690/WindowsServer2003-KB3011780-x64-KOR.exe
 http://download.microsoft.com/download/6/E/7/6E732572-428B-4FCB-8789-10589E03D69D/WindowsServer2003-KB4012598-x64-custom-KOR.exe

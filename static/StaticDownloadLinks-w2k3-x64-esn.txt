@@ -1,4 +1,4 @@
-http://download.microsoft.com/download/1/0/B/10BC892F-7F45-4E5A-8572-ECFF200B23C7/WindowsServer2003-KB968930-x64-ESN.exe
+http://download.windowsupdate.com/msdownload/update/software/updt/2009/11/windowsserver2003-kb968930-x64-esn_70ff5c3ec294531de24a9d80bd00916634b01d39.exe
 http://download.windowsupdate.com/msdownload/update/software/secu/2011/09/windows-es-es-kb2564958_56e3cc1e02b3c6729afc585cf8aabee70cfc0dd9.exe
 http://download.microsoft.com/download/6/4/5/645fed5f-a6e7-44d9-9d10-fe83348796b0/wic_x64_esn.exe
 http://download.microsoft.com/download/9/C/E/9CEF8AE9-E045-4F2D-86DD-838B185D88C4/WindowsServer2003-KB3011780-x64-ESN.exe
