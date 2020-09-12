@@ -1,6 +1,12 @@
 @echo off
 rem *** Author: T. Wittrock, Kiel ***
 
+set errorlevel=0
+
+set PATH=%ProgramFiles%\7-Zip-Zstandard;%ProgramFiles%\7-Zip;%PATH%
+
+:Have7Zip
+
 verify other 2>nul
 setlocal enableextensions
 if errorlevel 1 goto NoExtensions
@@ -10,7 +16,7 @@ if "%TEMP%"=="" goto NoTemp
 pushd "%TEMP%"
 if errorlevel 1 goto NoTempDir
 popd
-if not exist "%ProgramFiles%\7-Zip\7z.exe" goto No7Zip
+
 
 if exist "%TEMP%\wsusoffline" rd /S /Q "%TEMP%\wsusoffline"
 md "%TEMP%\wsusoffline"
@@ -21,7 +27,7 @@ if exist wsusoffline%1.mds del wsusoffline%1.mds
 if exist wsusoffline%1_hashes.txt del wsusoffline%1_hashes.txt
 echo Creating release archive "%TEMP%\wsusoffline%1.zip"...
 ren "%TEMP%\wsusoffline\cmd\UpdateOU.cmd" UpdateOU.new
-"%ProgramFiles%\7-Zip\7z.exe" a -tzip -mx9 -r wsusoffline%1.zip wsusoffline
+"7z.exe" a -tzip -mx9 -r wsusoffline%1.zip wsusoffline
 echo Creating message digest file "%TEMP%\wsusoffline%1_hashes.txt"...
 if /i "%PROCESSOR_ARCHITECTURE%"=="AMD64" (set HASHDEEP_EXE=hashdeep64.exe) else (
   if /i "%PROCESSOR_ARCHITEW6432%"=="AMD64" (set HASHDEEP_EXE=hashdeep64.exe) else (set HASHDEEP_EXE=hashdeep.exe)
@@ -60,7 +66,7 @@ goto EoF
 
 :No7Zip
 echo.
-echo ERROR: Compression utility "%ProgramFiles%\7-Zip\7z.exe" not found.
+echo ERROR: Compression utility 7z.exe not found.
 echo.
 goto EoF
 
