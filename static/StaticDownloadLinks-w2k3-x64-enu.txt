@@ -1,4 +1,5 @@
 http://download.windowsupdate.com/msdownload/update/software/updt/2009/11/windowsserver2003-kb968930-x64-eng_8ba702aa016e4c5aed581814647f4d55635eff5c.exe
+http://www.download.windowsupdate.com/msdownload/update/v3-19990518/cabpool/windowsserver2003.windowsxp-kb925876-v2-x64-enu_22b3b8a8ae5633a33f09fe0a5cdf6b901a41d34e.exe
 http://download.windowsupdate.com/msdownload/update/software/secu/2011/09/windows-en-us-kb2564958_3ef5ed7fddcdd17df35cc731db6576ff8715475e.exe
 http://download.microsoft.com/download/6/4/5/645fed5f-a6e7-44d9-9d10-fe83348796b0/wic_x64_enu.exe
 http://download.microsoft.com/download/8/6/8/86858787-C63C-4050-BBC5-33751743E05D/WindowsServer2003-KB3011780-x64-ENU.exe
