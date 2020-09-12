@@ -1,5 +1,5 @@
 http://www.download.windowsupdate.com/msdownload/update/software/dflt/2008/02/windowsserver2003-kb914961-sp2-x86-ita_75aa7220b0e226330a723cd27cb0f8b56e9b5f22.exe
-http://download.microsoft.com/download/a/c/9/ac9f2354-f5bd-46f2-99ff-dd6162735e29/WindowsServer2003-KB925876-v2-x86-ITA.exe
+http://www.download.windowsupdate.com/msdownload/update/v3-19990518/cabpool/windowsserver2003-kb925876-v2-x86-ita_3da6b67137d1b0bf05ec4e8c6c7d2340c2db09ea.exe
 http://download.windowsupdate.com/msdownload/update/software/updt/2009/11/windowsserver2003-kb968930-x86-ita_d5f61af1919c136d0ca4786965c012fb073601b9.exe
 http://download.windowsupdate.com/msdownload/update/software/secu/2011/09/windows-it-it-kb2564958_98814dc88dd03e85842077daa18fff531d58ccae.exe
 http://download.microsoft.com/download/f/f/1/ff178bb1-da91-48ed-89e5-478a99387d4f/wic_x86_ita.exe
