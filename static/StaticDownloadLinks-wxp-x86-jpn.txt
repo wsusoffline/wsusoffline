@@ -3,3 +3,13 @@ http://download.microsoft.com/download/5/5/7/557E16D5-C18B-431C-BD1A-50597E1178B
 http://download.microsoft.com/download/8/6/1/861B32F3-C1D0-424D-8DE5-3ECB4AEE15C0/WindowsXP-KB968930-x86-JPN.exe
 http://download.microsoft.com/download/8/b/3/8b35bfa0-374b-4563-8c12-d778268f6680/wmp11-windowsxp-x86-ja-jp.exe
 http://download.windowsupdate.com/msdownload/update/software/secu/2011/09/windows-ja-jp-kb2564958_ed298eecfed026268696364723e47d798bb313f4.exe
+http://download.microsoft.com/download/E/4/9/E49C8A5A-D45D-426B-B67A-8BD9D53CE1FC/WindowsXP-KB4012598-x86-Custom-JPN.exe
+http://download.microsoft.com/download/F/2/7/F27A793C-7128-4DE8-9088-D43D4DCC6BC2/WindowsXP-KB4012583-x86-Custom-JPN.exe
+http://download.microsoft.com/download/4/8/D/48D4BC28-097B-4228-B77A-D5A11A7B4A9C/WindowsXP-KB4022747-x86-Custom-JPN.exe
+http://download.microsoft.com/download/8/B/0/8B06E7D1-3BA0-484B-95BC-AA84B12C9F90/IE8-WindowsXP-KB4018271-x86-Custom-JPN.exe
+http://download.microsoft.com/download/8/0/3/803F3F27-B365-433D-87FC-A322D70E101D/WindowsXP-KB4018466-x86-Custom-JPN.exe
+http://download.microsoft.com/download/A/E/C/AECC5096-53F1-4E04-98FB-D47A7E0096C0/WindowsXP-KB3197835-x86-Custom-JPN.exe
+http://download.microsoft.com/download/A/9/C/A9CB3512-31C6-4190-8EA3-BF74E46DC9A0/WindowsXP-KB4024323-x86-Custom-JPN.exe
+http://download.microsoft.com/download/8/2/4/824648B8-635E-42F4-88F0-3B7ABAD3F267/WindowsXP-KB4025218-x86-Custom-JPN.exe
+http://download.microsoft.com/download/1/4/B/14BA7531-C085-428D-A0F7-DB4BC5982C74/WindowsXP-KB4024402-x86-Custom-JPN.exe
+http://download.microsoft.com/download/2/E/3/2E3959C2-DE02-4259-8762-ED58B4AF2A17/WindowsXP-KB4019204-x86-Custom-JPN.exe

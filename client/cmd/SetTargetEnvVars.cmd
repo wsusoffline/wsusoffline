@@ -125,7 +125,7 @@ if /i "%OS_ARCH%"=="x64" (
     )
     del "%TEMP%\wou_ie_kbids_sorted.txt"
   ) else (
-    set WUSCN_PREREQ_ID=kb2898785
+    set WUSCN_PREREQ_ID=kb2909921
   )
   set WOU_ENDLESS=4
 )
