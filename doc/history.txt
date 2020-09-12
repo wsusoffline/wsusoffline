@@ -921,3 +921,9 @@ Version 9.2.4 -- 23.03.18
 - Removed obsolete Remote Desktop Client installation (Thanks to H. Buhrmester)
 - Fix: Download part missed ten updates for .NET Frameworks (Thanks to "Denniss" and H. Buhrmester)
 --------------------------------------------------------------------------------
+Version 9.2.5 -- 13.09.20
+- Fix: Recover unavailable static download links for kb953356, kb969084, rootsupd.exe and rvkroots.exe
+- Fix: Improve KB968930 download
+- Fix: Merge MSE downloads
+- Fix: Merge dotnet downloads
+--------------------------------------------------------------------------------

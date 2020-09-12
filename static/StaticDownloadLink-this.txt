@@ -1,1 +1,1 @@
-http://download.wsusoffline.net/wsusoffline924.zip
+https://github.com/wsusoffline/wsusoffline/releases/download/wsusoffline9.2.5/wsusoffline925.zip
