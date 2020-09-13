@@ -219,7 +219,7 @@ Func LanguageCaption($token, $german)
       EndIf
     Case $lang_token_fra
       If $german Then
-        Return "Französisch"
+        Return "FranzÃ¶sisch"
       Else
         Return "French"
       EndIf
@@ -267,7 +267,7 @@ Func LanguageCaption($token, $german)
       EndIf
     Case $lang_token_nld
       If $german Then
-        Return "Niederländisch"
+        Return "NiederlÃ¤ndisch"
       Else
         Return "Dutch"
       EndIf
@@ -315,7 +315,7 @@ Func LanguageCaption($token, $german)
       EndIf
     Case $lang_token_trk
       If $german Then
-        Return "Türkisch"
+        Return "TÃ¼rkisch"
       Else
         Return "Turkish"
       EndIf
@@ -333,13 +333,13 @@ Func LanguageCaption($token, $german)
       EndIf
     Case $lang_token_heb
       If $german Then
-        Return "Hebräisch"
+        Return "HebrÃ¤isch"
       Else
         Return "Hebrew"
       EndIf
     Case $lang_token_dan
       If $german Then
-        Return "Dänisch"
+        Return "DÃ¤nisch"
       Else
         Return "Danish"
       EndIf
@@ -754,8 +754,8 @@ Dim $result
   EndIf
   If $result <> 0 Then
     If ShowGUIInGerman() Then
-      $result = MsgBox(0x2023, "Versionsprüfung", "Sie setzen " & $caption & " ein. Eine neuere Version ist verfügbar." _
-                       & @LF & "Möchten Sie WSUS Offline Update nun aktualisieren?")
+      $result = MsgBox(0x2023, "VersionsprÃ¼fung", "Sie setzen " & $caption & " ein. Eine neuere Version ist verfÃ¼gbar." _
+                       & @LF & "MÃ¶chten Sie WSUS Offline Update nun aktualisieren?")
     Else
       $result = MsgBox(0x2023, "Version check", "You are using " & $caption & ". A newer version is available." _
                        & @LF & "Would you like to update WSUS Offline Update now?")
@@ -803,9 +803,9 @@ Dim $result
   EndIf
   If $result <> 0 Then
     If ShowGUIInGerman() Then
-      $result = MsgBox(0x2023, "Versionsprüfung", "Ihre Liste vertrauenswürdiger" _
+      $result = MsgBox(0x2023, "VersionsprÃ¼fung", "Ihre Liste vertrauenswÃ¼rdiger" _
                        & @LF & "Stammzertifikate ist nicht aktuell." _
-                       & @LF & "Möchten Sie sie nun aktualisieren?")
+                       & @LF & "MÃ¶chten Sie sie nun aktualisieren?")
     Else
       $result = MsgBox(0x2023, "Version check", "Your list of Trusted Root Certificates is outdated." _
                        & @LF & "Would you like to update it now?")
@@ -834,7 +834,7 @@ Dim $result
     EndIf
     If $result = -1 Then
       If ShowGUIInGerman() Then
-        MsgBox(0x2010, "Fehler", "Fehler beim Öffnen der Datei " & @ScriptDir & "\cmd\custom\" & $runAllFile)
+        MsgBox(0x2010, "Fehler", "Fehler beim Ã–ffnen der Datei " & @ScriptDir & "\cmd\custom\" & $runAllFile)
       Else
         MsgBox(0x2010, "Error", "Error opening file " & @ScriptDir & "\cmd\custom\" & $runAllFile)
       EndIf
@@ -849,7 +849,7 @@ Dim $result
   EndIf
 
   If ShowGUIInGerman() Then
-    WinSetTitle($maindlg, $maindlg, $caption & " - Lade Updates für " & $stroptions & "...")
+    WinSetTitle($maindlg, $maindlg, $caption & " - Lade Updates fÃ¼r " & $stroptions & "...")
   Else
     WinSetTitle($maindlg, $maindlg, $caption & " - Downloading updates for " & $stroptions & "...")
   EndIf
@@ -872,8 +872,8 @@ Dim $result
   Else
     WinSetState($maindlg, $maindlg, @SW_RESTORE)
     If ShowGUIInGerman() Then
-      If MsgBox(0x2014, "Fehler", "Fehler beim Herunterladen / Verifizieren der Updates für " & $stroptions & "." _
-                & @LF & "Möchten Sie nun die Protokolldatei ansehen?") = $msgbox_btn_yes Then
+      If MsgBox(0x2014, "Fehler", "Fehler beim Herunterladen / Verifizieren der Updates fÃ¼r " & $stroptions & "." _
+                & @LF & "MÃ¶chten Sie nun die Protokolldatei ansehen?") = $msgbox_btn_yes Then
         ShowLogFile()
       EndIf
     Else
@@ -899,7 +899,7 @@ Dim $result
     EndIf
     If $result = -1 Then
       If ShowGUIInGerman() Then
-        MsgBox(0x2010, "Fehler", "Fehler beim Öffnen der Datei " & @ScriptDir & "\cmd\custom\" & $runAllFile)
+        MsgBox(0x2010, "Fehler", "Fehler beim Ã–ffnen der Datei " & @ScriptDir & "\cmd\custom\" & $runAllFile)
       Else
         MsgBox(0x2010, "Error", "Error opening file " & @ScriptDir & "\cmd\custom\" & $runAllFile)
       EndIf
@@ -914,7 +914,7 @@ Dim $result
   EndIf
 
   If ShowGUIInGerman() Then
-    WinSetTitle($maindlg, $maindlg, $caption & " - Erstelle ISO-Image für " & $stroptions & "...")
+    WinSetTitle($maindlg, $maindlg, $caption & " - Erstelle ISO-Image fÃ¼r " & $stroptions & "...")
   Else
     WinSetTitle($maindlg, $maindlg, $caption & " - Creating ISO image for " & $stroptions & "...")
   EndIf
@@ -932,7 +932,7 @@ Dim $result
   Else
     WinSetState($maindlg, $maindlg, @SW_RESTORE)
     If ShowGUIInGerman() Then
-      MsgBox(0x2010, "Fehler", "Fehler beim Erstellen des ISO-Images für " & $stroptions & ".")
+      MsgBox(0x2010, "Fehler", "Fehler beim Erstellen des ISO-Images fÃ¼r " & $stroptions & ".")
     Else
       MsgBox(0x2010, "Error", "Error creating ISO image for " & $stroptions & ".")
     EndIf
@@ -953,7 +953,7 @@ Dim $result
     EndIf
     If $result = -1 Then
       If ShowGUIInGerman() Then
-        MsgBox(0x2010, "Fehler", "Fehler beim Öffnen der Datei " & @ScriptDir & "\cmd\custom\" & $runAllFile)
+        MsgBox(0x2010, "Fehler", "Fehler beim Ã–ffnen der Datei " & @ScriptDir & "\cmd\custom\" & $runAllFile)
       Else
         MsgBox(0x2010, "Error", "Error opening file " & @ScriptDir & "\cmd\custom\" & $runAllFile)
       EndIf
@@ -977,7 +977,7 @@ Dim $result
     Return $result
   EndIf
   If ShowGUIInGerman() Then
-    WinSetTitle($maindlg, $maindlg, $caption & " - Kopiere Dateien für " & $stroptions & "...")
+    WinSetTitle($maindlg, $maindlg, $caption & " - Kopiere Dateien fÃ¼r " & $stroptions & "...")
   Else
     WinSetTitle($maindlg, $maindlg, $caption & " - Copying files for " & $stroptions & "...")
   EndIf
@@ -995,7 +995,7 @@ Dim $result
   Else
     WinSetState($maindlg, $maindlg, @SW_RESTORE)
     If ShowGUIInGerman() Then
-      MsgBox(0x2010, "Fehler", "Fehler beim Kopieren der Dateien für " & $stroptions & ".")
+      MsgBox(0x2010, "Fehler", "Fehler beim Kopieren der Dateien fÃ¼r " & $stroptions & ".")
     Else
       MsgBox(0x2010, "Error", "Error copying files for " & $stroptions & ".")
     EndIf
@@ -1263,7 +1263,7 @@ EndIf
 $txtxpos = $txtxoffset
 $txtypos = $txtyoffset
 If ShowGUIInGerman() Then
-  GUICtrlCreateLabel("Lade Microsoft-Updates für...", $txtxpos, $txtypos, 3 * $groupwidth / 4, $txtheight)
+  GUICtrlCreateLabel("Lade Microsoft-Updates fÃ¼r...", $txtxpos, $txtypos, 3 * $groupwidth / 4, $txtheight)
 Else
   GUICtrlCreateLabel("Download Microsoft updates for...", $txtxpos, $txtypos, 3 * $groupwidth / 4, $txtheight)
 EndIf
@@ -2419,7 +2419,7 @@ GUICtrlCreateGroup("Office Updates 2003 - 2010 (ofc)", $txtxpos, $txtypos, $grou
 $txtypos = $txtypos + 2 * $txtyoffset
 $txtxpos = 3 * $txtxoffset
 If ShowGUIInGerman() Then
-  GUICtrlCreateLabel("Wenn Sie oben ein Office-Produkt auswählen, werden dynamisch ermittelte Updates für Office 2003 - 2010 automatisch eingeschlossen.", $txtxpos, $txtypos, $groupwidth - 2 * $txtxoffset, $txtheight)
+  GUICtrlCreateLabel("Wenn Sie oben ein Office-Produkt auswÃ¤hlen, werden dynamisch ermittelte Updates fÃ¼r Office 2003 - 2010 automatisch eingeschlossen.", $txtxpos, $txtypos, $groupwidth - 2 * $txtxoffset, $txtheight)
 Else
   GUICtrlCreateLabel("If you select an Office product above, dynamically determined Updates for Office 2003 - 2010 will be included automatically.", $txtxpos, $txtypos, $groupwidth - 2 * $txtxoffset, $txtheight)
 EndIf
@@ -2678,7 +2678,7 @@ EndIf
 $txtxpos = 2 * $txtxoffset
 $txtypos = $txtypos + $txtheight
 If ShowGUIInGerman() Then
-  $includesp = GUICtrlCreateCheckbox("Service-Packs einschließen", $txtxpos, $txtypos, $groupwidth / 2, $txtheight)
+  $includesp = GUICtrlCreateCheckbox("Service-Packs einschlieÃŸen", $txtxpos, $txtypos, $groupwidth / 2, $txtheight)
 Else
   $includesp = GUICtrlCreateCheckbox("Include Service Packs", $txtxpos, $txtypos, $groupwidth / 2, $txtheight)
 EndIf
@@ -2698,7 +2698,7 @@ EndIf
 ;  Include .NET Frameworks 3.5 SP1 and 4
 $txtxpos = $txtxpos + $groupwidth / 2
 If ShowGUIInGerman() Then
-  $dotnet = GUICtrlCreateCheckbox("C++-Laufzeitbibliotheken und .NET Frameworks einschließen", $txtxpos, $txtypos, $groupwidth / 2, $txtheight)
+  $dotnet = GUICtrlCreateCheckbox("C++-Laufzeitbibliotheken und .NET Frameworks einschlieÃŸen", $txtxpos, $txtypos, $groupwidth / 2, $txtheight)
 Else
   $dotnet = GUICtrlCreateCheckbox("Include C++ Runtime Libraries and .NET Frameworks", $txtxpos, $txtypos, $groupwidth / 2, $txtheight)
 EndIf
@@ -2716,7 +2716,7 @@ EndIf
 $txtxpos = 2 * $txtxoffset
 $txtypos = $txtypos + $txtheight
 If ShowGUIInGerman() Then
-  $msse = GUICtrlCreateCheckbox("Microsoft Security Essentials einschließen", $txtxpos, $txtypos, $groupwidth / 2, $txtheight)
+  $msse = GUICtrlCreateCheckbox("Microsoft Security Essentials einschlieÃŸen", $txtxpos, $txtypos, $groupwidth / 2, $txtheight)
 Else
   $msse = GUICtrlCreateCheckbox("Include Microsoft Security Essentials", $txtxpos, $txtypos, $groupwidth / 2, $txtheight)
 EndIf
@@ -2732,7 +2732,7 @@ EndIf
 ;  Include Windows Defender definitions
 $txtxpos = $txtxpos + $groupwidth / 2
 If ShowGUIInGerman() Then
-  $wddefs = GUICtrlCreateCheckbox("Windows Defender-Definitionen einschließen", $txtxpos, $txtypos, $groupwidth / 2, $txtheight)
+  $wddefs = GUICtrlCreateCheckbox("Windows Defender-Definitionen einschlieÃŸen", $txtxpos, $txtypos, $groupwidth / 2, $txtheight)
 Else
   $wddefs = GUICtrlCreateCheckbox("Include Windows Defender definitions", $txtxpos, $txtypos, $groupwidth / 2, $txtheight)
 EndIf
@@ -2775,7 +2775,7 @@ EndIf
 ;  cross-platform DVD ISO image
 $txtxpos = $txtxpos + $groupwidth / 2
 If ShowGUIInGerman() Then
-  $dvdiso = GUICtrlCreateCheckbox("pro Sprache, x86-produktübergreifend (nur Desktop-Produkte)", $txtxpos, $txtypos, $groupwidth / 2, $txtheight)
+  $dvdiso = GUICtrlCreateCheckbox("pro Sprache, x86-produktÃ¼bergreifend (nur Desktop-Produkte)", $txtxpos, $txtypos, $groupwidth / 2, $txtheight)
 Else
   $dvdiso = GUICtrlCreateCheckbox("per selected language, 'x86-cross-product' (desktop only)", $txtxpos, $txtypos, $groupwidth / 2, $txtheight)
 EndIf
@@ -2802,7 +2802,7 @@ EndIf
 $txtypos = $txtypos + 1.5 * $txtyoffset
 $txtxpos = 2 * $txtxoffset
 If ShowGUIInGerman() Then
-  $usbcopy = GUICtrlCreateCheckbox("Kopiere Updates für gewählte Produkte ins Verzeichnis:", $txtxpos, $txtypos, $groupwidth / 2, $txtheight)
+  $usbcopy = GUICtrlCreateCheckbox("Kopiere Updates fÃ¼r gewÃ¤hlte Produkte ins Verzeichnis:", $txtxpos, $txtypos, $groupwidth / 2, $txtheight)
 Else
   $usbcopy = GUICtrlCreateCheckbox("Copy updates for selected products into directory:", $txtxpos, $txtypos, $groupwidth / 2, $txtheight)
 EndIf
@@ -2854,7 +2854,7 @@ GUICtrlSetResizing(-1, $GUI_DOCKLEFT + $GUI_DOCKBOTTOM)
 ;  Image only checkbox
 $txtxpos = $txtxpos + $btnwidth + $txtxoffset
 If ShowGUIInGerman() Then
-  $imageonly = GUICtrlCreateCheckbox("Nur ISO / USB präparieren", $txtxpos, $txtypos, 2 * $txtwidth, $slimheight)
+  $imageonly = GUICtrlCreateCheckbox("Nur ISO / USB prÃ¤parieren", $txtxpos, $txtypos, 2 * $txtwidth, $slimheight)
 Else
   $imageonly = GUICtrlCreateCheckbox("Only prepare ISO / USB", $txtxpos, $txtypos, 2 * $txtwidth, $slimheight)
 EndIf
@@ -2959,7 +2959,7 @@ If NOT PathValid(@TempDir) Then
 EndIf
 If StringRight(EnvGet("TEMP"), 1) = "\" Then
   If ShowGUIInGerman() Then
-    MsgBox(0x2010, "Fehler", "Der %TEMP%-Pfad enthält einen abschließenden Backslash ('\').")
+    MsgBox(0x2010, "Fehler", "Der %TEMP%-Pfad enthÃ¤lt einen abschlieÃŸenden Backslash ('\').")
   Else
     MsgBox(0x2010, "Error", "The %TEMP% path contains a trailing backslash ('\').")
   EndIf
@@ -2967,7 +2967,7 @@ If StringRight(EnvGet("TEMP"), 1) = "\" Then
 EndIf
 If NOT DirectoryStructureExists() Then
   If ShowGUIInGerman() Then
-    MsgBox(0x2010, "Fehler", "Die Verzeichnisstruktur ist unvollständig." _
+    MsgBox(0x2010, "Fehler", "Die Verzeichnisstruktur ist unvollstÃ¤ndig." _
                      & @LF & "Bitte behalten Sie diese beim Entpacken des Zip-Archivs bei.")
   Else
     MsgBox(0x2010, "Error", "The directory structure is incomplete." _
@@ -2986,10 +2986,10 @@ While 1
     Case $includesp         ; 'Include Service Packs' check box toggled
       If ( (NOT IsCheckBoxChecked($includesp)) AND IsCheckBoxChecked($cleanupdownloads) ) Then
         If ShowGUIInGerman() Then
-          If MsgBox(0x2134, "Warnung", "Durch die Kombination der Optionen 'Service-Packs ausschließen' und" _
+          If MsgBox(0x2134, "Warnung", "Durch die Kombination der Optionen 'Service-Packs ausschlieÃŸen' und" _
                                & @LF & "'Download-Verzeichnisse bereinigen' werden bereits heruntergeladene" _
-                               & @LF & "Service Packs für die selektierten Produkte gelöscht." _
-                               & @LF & "Möchten Sie fortsetzen?") = $msgbox_btn_no Then
+                               & @LF & "Service Packs fÃ¼r die selektierten Produkte gelÃ¶scht." _
+                               & @LF & "MÃ¶chten Sie fortsetzen?") = $msgbox_btn_no Then
             GUICtrlSetState($includesp, $GUI_CHECKED)
           EndIf
         Else
@@ -3005,10 +3005,10 @@ While 1
     Case $cleanupdownloads  ; 'Cleanup download directories' check box toggled
       If ( (NOT IsCheckBoxChecked($includesp)) AND IsCheckBoxChecked($cleanupdownloads) ) Then
         If ShowGUIInGerman() Then
-          If MsgBox(0x2134, "Warnung", "Durch die Kombination der Optionen 'Service-Packs ausschließen' und" _
+          If MsgBox(0x2134, "Warnung", "Durch die Kombination der Optionen 'Service-Packs ausschlieÃŸen' und" _
                                & @LF & "'Download-Verzeichnisse bereinigen' werden bereits heruntergeladene" _
-                               & @LF & "Service Packs für die selektierten Produkte gelöscht." _
-                               & @LF & "Möchten Sie fortsetzen?") = $msgbox_btn_no Then
+                               & @LF & "Service Packs fÃ¼r die selektierten Produkte gelÃ¶scht." _
+                               & @LF & "MÃ¶chten Sie fortsetzen?") = $msgbox_btn_no Then
             GUICtrlSetState($cleanupdownloads, $GUI_UNCHECKED)
           EndIf
         Else
@@ -3068,7 +3068,7 @@ While 1
 
     Case $usbfsf            ; FSF button pressed
       If ShowGUIInGerman() Then
-        $dummy = FileSelectFolder("Wählen Sie das Zielverzeichnis:", "", 1, GUICtrlRead($usbpath))
+        $dummy = FileSelectFolder("WÃ¤hlen Sie das Zielverzeichnis:", "", 1, GUICtrlRead($usbpath))
       Else
         $dummy = FileSelectFolder("Choose target directory:", "", 1, GUICtrlRead($usbpath))
       EndIf
@@ -3080,8 +3080,8 @@ While 1
       If IsCheckBoxChecked($usbclean) Then
         If ShowGUIInGerman() Then
           If MsgBox(0x2134, "Warnung", "Durch die Option 'Zielverzeichnis bereinigen'" _
-                               & @LF & "werden dort bereits existierende Dateien gelöscht." _
-                               & @LF & "Möchten Sie fortsetzen?") = $msgbox_btn_no Then
+                               & @LF & "werden dort bereits existierende Dateien gelÃ¶scht." _
+                               & @LF & "MÃ¶chten Sie fortsetzen?") = $msgbox_btn_no Then
             GUICtrlSetState($usbclean, $GUI_UNCHECKED)
           EndIf
         Else
@@ -3097,8 +3097,8 @@ While 1
       If IsCheckBoxChecked($imageonly) Then
         If ShowGUIInGerman() Then
           If MsgBox(0x2134, "Warnung", "Durch diese Option verhindern Sie das Herunterladen aktueller Updates." _
-                               & @LF & "Dies kann ein erhöhtes Sicherheitsrisiko für das Zielsystem bedeuten." _
-                               & @LF & "Möchten Sie fortsetzen?") = $msgbox_btn_no Then
+                               & @LF & "Dies kann ein erhÃ¶htes Sicherheitsrisiko fÃ¼r das Zielsystem bedeuten." _
+                               & @LF & "MÃ¶chten Sie fortsetzen?") = $msgbox_btn_no Then
             GUICtrlSetState($imageonly, $GUI_UNCHECKED)
           Else
             GUICtrlSetState($cleanupdownloads, $GUI_DISABLE)
@@ -3127,7 +3127,7 @@ While 1
     Case $btn_proxy         ; Proxy button pressed
       If ShowGUIInGerman() Then
         $dummy = InputBox("HTTP-Proxy-Einstellung", _
-                          "ACHTUNG: Sonderzeichen müssen hier gemäß RFC1738 codiert werden." & @LF _
+                          "ACHTUNG: Sonderzeichen mÃ¼ssen hier gemÃ¤ÃŸ RFC1738 codiert werden." & @LF _
                         & "Um die Speicherung Ihres Passworts zu vermeiden," & @LF _
                         & "lassen Sie es hier bitte weg (http://Benutzername:@Server[:Port])." & @LF & @LF _
                         & "Bitte geben Sie Ihre HTTP-Proxy-URL ein" & @LF _
@@ -4261,7 +4261,7 @@ While 1
         If IsCheckBoxChecked($scripting) Then
           If ShowGUIInGerman() Then
             If MsgBox(0x2044, "Info", "Sammelskript " & @ScriptDir & "\cmd\custom\RunAll.cmd erstellt." _
-                      & @LF & "Möchten Sie das Skript nun prüfen?") = $msgbox_btn_yes Then
+                      & @LF & "MÃ¶chten Sie das Skript nun prÃ¼fen?") = $msgbox_btn_yes Then
               ShowRunAll()
             EndIf
           Else
@@ -4284,7 +4284,7 @@ While 1
           Else
             If ShowGUIInGerman() Then
               If MsgBox(0x2044, "Info", "Herunterladen / Image-Erstellung / Kopieren erfolgreich." _
-                        & @LF & "Möchten Sie nun die Protokolldatei auf mögliche Warnungen prüfen?") = $msgbox_btn_yes Then
+                        & @LF & "MÃ¶chten Sie nun die Protokolldatei auf mÃ¶gliche Warnungen prÃ¼fen?") = $msgbox_btn_yes Then
                 ShowLogFile()
               EndIf
             Else
