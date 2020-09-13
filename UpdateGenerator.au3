@@ -1678,9 +1678,9 @@ GUICtrlSetState(-1, $GUI_DISABLE)
 $txtxpos = 2 * $txtxoffset
 $txtypos = $txtypos + 2.5 * $txtyoffset
 If ShowGUIInGerman() Then
-  GUICtrlCreateGroup("Windows XP / Server 2003 x64-Editionen (w2k3-x64)", $txtxpos, $txtypos, $groupwidth, $groupheight_glb)
+  GUICtrlCreateGroup("Windows XP / Server 2003 x64-Editionen (w2k3-x64)", $txtxpos, $txtypos, $groupwidth, $groupheight_lng)
 Else
-  GUICtrlCreateGroup("Windows XP / Server 2003 x64 editions (w2k3-x64)", $txtxpos, $txtypos, $groupwidth, $groupheight_glb)
+  GUICtrlCreateGroup("Windows XP / Server 2003 x64 editions (w2k3-x64)", $txtxpos, $txtypos, $groupwidth, $groupheight_lng)
 EndIf
 ;  Windows Server 2003 x64 English
 $txtypos = $txtypos + 1.5 * $txtyoffset
@@ -1731,17 +1731,22 @@ If IniRead($inifilename, $ini_section_w2k3_x64, $lang_token_rus, $disabled) = $e
 Else
   GUICtrlSetState(-1, $GUI_UNCHECKED)
 EndIf
+
+$txtxpos = 3 * $txtxoffset
+$txtypos = $txtypos + $txtheight
+
 ;  Windows Server 2003 x64 Brazilian
-$txtxpos = $txtxpos + $txtwidth - 10
-$w2k3_x64_ptb = GUICtrlCreateCheckbox(LanguageCaption($lang_token_ptb, ShowGUIInGerman()), $txtxpos, $txtypos, $txtwidth + 5, $txtheight)
+$txtxpos = 3 * $txtxoffset
+$txtypos = $txtypos + $txtheight
+$w2k3_x64_ptb = GUICtrlCreateCheckbox(LanguageCaption($lang_token_ptb, ShowGUIInGerman()), $txtxpos, $txtypos, $txtwidth - 5, $txtheight)
 If IniRead($inifilename, $ini_section_w2k3_x64, $lang_token_ptb, $disabled) = $enabled Then
   GUICtrlSetState(-1, $GUI_CHECKED)
 Else
   GUICtrlSetState(-1, $GUI_UNCHECKED)
 EndIf
 ;  Windows Server 2003 x64 German
-$txtxpos = $txtxpos + $txtwidth + 5
-$w2k3_x64_deu = GUICtrlCreateCheckbox(LanguageCaption($lang_token_deu, ShowGUIInGerman()), $txtxpos, $txtypos, $txtwidth, $txtheight)
+$txtxpos = $txtxpos + $txtwidth - 5
+$w2k3_x64_deu = GUICtrlCreateCheckbox(LanguageCaption($lang_token_deu, ShowGUIInGerman()), $txtxpos, $txtypos, $txtwidth + 10, $txtheight)
 If IniRead($inifilename, $ini_section_w2k3_x64, $lang_token_deu, $disabled) = $enabled Then
   GUICtrlSetState(-1, $GUI_CHECKED)
 Else
