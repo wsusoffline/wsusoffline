@@ -1,6 +1,6 @@
 http://download.windowsupdate.com/msdownload/update/software/updt/2009/11/windowsserver2003-kb968930-x64-chs_d80eee2a5d331f7f4670ecd205da5fe68124a15d.exe
-http://download.windowsupdate.com/msdownload/update/software/secu/2011/09/windows-en-us-kb2564958_3ef5ed7fddcdd17df35cc731db6576ff8715475e.exe
-http://download.microsoft.com/download/6/4/5/645fed5f-a6e7-44d9-9d10-fe83348796b0/wic_x64_enu.exe
+http://download.windowsupdate.com/msdownload/update/software/secu/2011/09/windows-zh-cn-kb2564958_5dca7a042543fe771694e6559c6dacb86634849a.exe
+http://download.microsoft.com/download/6/4/5/645fed5f-a6e7-44d9-9d10-fe83348796b0/wic_x64_chs.exe
 http://download.microsoft.com/download/8/6/8/86858787-C63C-4050-BBC5-33751743E05D/WindowsServer2003-KB3011780-x64-ENU.exe
 http://download.microsoft.com/download/A/9/4/A943F2A3-B793-4B77-97FA-7D0B702084D1/WindowsServer2003-KB4012598-x64-custom-ENU.exe
 http://download.microsoft.com/download/8/A/7/8A7BB3B9-03E5-433A-B885-B7091ACD4128/WindowsServer2003-KB4012583-x64-custom-ENU.exe
