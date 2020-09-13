@@ -2,7 +2,7 @@
 
 #########################################################################
 ###          WSUS Offline Update ISO maker for Linux systems          ###
-###                               v. 9.2.3                            ###
+###                               v. 9.2.6                            ###
 ###                                                                   ###
 ###   http://www.wsusoffline.net/                                     ###
 ###   Authors: Stefan Joehnke, Walter Schiessberg                     ###
@@ -74,7 +74,7 @@ fi
 
 test "$1" || printusage
 evaluateparams $@
-# $1 = sys, $2 = lang; $3 = /dotnet; $4 = /excludesp (o.ä.)
+# $1 = sys, $2 = lang; $3 = /dotnet; $4 = /excludesp (o.?)
 
 echo "Creating ISO filter..."
 if [ "$sys" == "ofc" ]; then
