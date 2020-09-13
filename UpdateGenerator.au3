@@ -281,13 +281,13 @@ Func LanguageCaption($token, $german)
       If $german Then
         Return "Chin. (simpl.)"
       Else
-        Return "Chinese (s.)"
+        Return "简体中文"
       EndIf
     Case $lang_token_cht
       If $german Then
         Return "Chin. (trad.)"
       Else
-        Return "Chinese (tr.)"
+        Return "繁體中文"
       EndIf
     Case $lang_token_plk
       If $german Then
