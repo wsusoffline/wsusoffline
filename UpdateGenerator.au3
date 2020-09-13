@@ -128,8 +128,8 @@ Dim $wxp_ptb, $w2k3_ptb, $w2k3_x64_ptb, $o2k3_ptb, $o2k7_ptb, $o2k10_ptb, $o2k13
 Dim $wxp_deu, $w2k3_deu, $w2k3_x64_deu, $o2k3_deu, $o2k7_deu, $o2k10_deu, $o2k13_deu  ; German
 Dim $wxp_nld, $w2k3_nld, $o2k3_nld, $o2k7_nld, $o2k10_nld, $o2k13_nld ; Dutch
 Dim $wxp_ita, $w2k3_ita, $o2k3_ita, $o2k7_ita, $o2k10_ita, $o2k13_ita ; Italian
-Dim $wxp_chs, $w2k3_chs, $o2k3_chs, $o2k7_chs, $o2k10_chs, $o2k13_chs ; Chinese simplified
-Dim $wxp_cht, $w2k3_cht, $o2k3_cht, $o2k7_cht, $o2k10_cht, $o2k13_cht ; Chinese traditional
+Dim $wxp_chs, $w2k3_chs, $w2k3_x64_chs, $o2k3_chs, $o2k7_chs, $o2k10_chs, $o2k13_chs  ; Chinese simplified
+Dim $wxp_cht, $w2k3_cht, $w2k3_x64_cht, $o2k3_cht, $o2k7_cht, $o2k10_cht, $o2k13_cht  ; Chinese traditional
 Dim $wxp_plk, $w2k3_plk, $o2k3_plk, $o2k7_plk, $o2k10_plk, $o2k13_plk ; Polish
 Dim $wxp_hun, $w2k3_hun, $o2k3_hun, $o2k7_hun, $o2k10_hun, $o2k13_hun ; Hungarian
 Dim $wxp_csy, $w2k3_csy, $o2k3_csy, $o2k7_csy, $o2k10_csy, $o2k13_csy ; Czech
@@ -432,8 +432,10 @@ Func SwitchDownloadTargets($state)
   GUICtrlSetState($w2k3_ita, $state)
   GUICtrlSetState($wxp_chs, $state)
   GUICtrlSetState($w2k3_chs, $state)
+  GUICtrlSetState($w2k3_x64_chs, $state)
   GUICtrlSetState($wxp_cht, $state)
   GUICtrlSetState($w2k3_cht, $state)
+  GUICtrlSetState($w2k3_x64_cht, $state)
   GUICtrlSetState($wxp_plk, $state)
   GUICtrlSetState($w2k3_plk, $state)
   GUICtrlSetState($wxp_hun, $state)
@@ -1083,6 +1085,8 @@ Func SaveSettings()
   IniWrite($inifilename, $ini_section_w2k3_x64, $lang_token_jpn, CheckBoxStateToString($w2k3_x64_jpn))
   IniWrite($inifilename, $ini_section_w2k3_x64, $lang_token_kor, CheckBoxStateToString($w2k3_x64_kor))
   IniWrite($inifilename, $ini_section_w2k3_x64, $lang_token_rus, CheckBoxStateToString($w2k3_x64_rus))
+  IniWrite($inifilename, $ini_section_w2k3_x64, $lang_token_chs, CheckBoxStateToString($w2k3_x64_chs))
+  IniWrite($inifilename, $ini_section_w2k3_x64, $lang_token_cht, CheckBoxStateToString($w2k3_x64_cht))
   IniWrite($inifilename, $ini_section_w2k3_x64, $lang_token_ptb, CheckBoxStateToString($w2k3_x64_ptb))
   IniWrite($inifilename, $ini_section_w2k3_x64, $lang_token_deu, CheckBoxStateToString($w2k3_x64_deu))
 
@@ -1731,10 +1735,23 @@ If IniRead($inifilename, $ini_section_w2k3_x64, $lang_token_rus, $disabled) = $e
 Else
   GUICtrlSetState(-1, $GUI_UNCHECKED)
 EndIf
-
+;  Windows Server 2003 x64 Chinese simplified
 $txtxpos = 3 * $txtxoffset
 $txtypos = $txtypos + $txtheight
-
+$w2k3_x64_chs = GUICtrlCreateCheckbox(LanguageCaption($lang_token_chs, ShowGUIInGerman()), $txtxpos, $txtypos, $txtwidth - 5, $txtheight)
+If IniRead($inifilename, $ini_section_w2k3_x64, $lang_token_chs, $disabled) = $enabled Then
+  GUICtrlSetState(-1, $GUI_CHECKED)
+Else
+  GUICtrlSetState(-1, $GUI_UNCHECKED)
+EndIf
+;  Windows Server 2003 x64 Chinese traditional
+$txtxpos = $txtxpos + $txtwidth - 5
+$w2k3_x64_cht = GUICtrlCreateCheckbox(LanguageCaption($lang_token_cht, ShowGUIInGerman()), $txtxpos, $txtypos, $txtwidth + 10, $txtheight)
+If IniRead($inifilename, $ini_section_w2k3_x64, $lang_token_cht, $disabled) = $enabled Then
+  GUICtrlSetState(-1, $GUI_CHECKED)
+Else
+  GUICtrlSetState(-1, $GUI_UNCHECKED)
+EndIf
 ;  Windows Server 2003 x64 Brazilian
 $txtxpos = 3 * $txtxoffset
 $txtypos = $txtypos + $txtheight
@@ -3639,6 +3656,11 @@ While 1
           ContinueLoop
         EndIf
       EndIf
+      If IsCheckBoxChecked($w2k3_x64_chs) Then
+        If RunScripts("w2k3-x64 chs", IsCheckBoxChecked($imageonly), DetermineDownloadSwitches($includesp, $dotnet, $msse, $wddefs, $cleanupdownloads, $verifydownloads, AuthProxy($proxy, $proxypwd), $wsus), IsCheckBoxChecked($cdiso), DetermineISOSwitches($includesp, $dotnet, $msse, $wddefs, $usbclean), IsCheckBoxChecked($usbcopy), GUICtrlRead($usbpath)) <> 0 Then
+          ContinueLoop
+        EndIf
+      EndIf
       If IsCheckBoxChecked($o2k3_chs) Then
         If RunScripts("o2k3 chs", IsCheckBoxChecked($imageonly), DetermineDownloadSwitches($includesp, $dotnet, $msse, $wddefs, $cleanupdownloads, $verifydownloads, AuthProxy($proxy, $proxypwd), $wsus), False, DetermineISOSwitches($includesp, $dotnet, $msse, $wddefs, $usbclean), False, GUICtrlRead($usbpath)) <> 0 Then
           ContinueLoop
@@ -3668,6 +3690,11 @@ While 1
       EndIf
       If IsCheckBoxChecked($w2k3_cht) Then
         If RunScripts("w2k3 cht", IsCheckBoxChecked($imageonly), DetermineDownloadSwitches($includesp, $dotnet, $msse, $wddefs, $cleanupdownloads, $verifydownloads, AuthProxy($proxy, $proxypwd), $wsus), IsCheckBoxChecked($cdiso), DetermineISOSwitches($includesp, $dotnet, $msse, $wddefs, $usbclean), IsCheckBoxChecked($usbcopy), GUICtrlRead($usbpath)) <> 0 Then
+          ContinueLoop
+        EndIf
+      EndIf
+      If IsCheckBoxChecked($w2k3_x64_cht) Then
+        If RunScripts("w2k3-x64 cht", IsCheckBoxChecked($imageonly), DetermineDownloadSwitches($includesp, $dotnet, $msse, $wddefs, $cleanupdownloads, $verifydownloads, AuthProxy($proxy, $proxypwd), $wsus), IsCheckBoxChecked($cdiso), DetermineISOSwitches($includesp, $dotnet, $msse, $wddefs, $usbclean), IsCheckBoxChecked($usbcopy), GUICtrlRead($usbpath)) <> 0 Then
           ContinueLoop
         EndIf
       EndIf
