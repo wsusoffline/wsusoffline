@@ -1,5 +1,5 @@
-https://raw.githubusercontent.com/wsusoffline/wsusoffline/wsusoffline9.2.x/mirror/win/glb/rootsupd.exe
-https://raw.githubusercontent.com/wsusoffline/wsusoffline/wsusoffline9.2.x/mirror/win/glb/rvkroots.exe
+https://github.com/wsusoffline/wsusoffline/releases/download/wsusoffline9.2.6/rootsupd.exe
+https://github.com/wsusoffline/wsusoffline/releases/download/wsusoffline9.2.6/rvkroots.exe
 http://download.microsoft.com/download/8/4/A/84A35BF1-DAFE-4AE8-82AF-AD2AE20B6B14/directx_Jun2010_redist.exe
 http://download.microsoft.com/download/F/8/C/F8C0EACB-92D0-4722-9B18-965DD2A681E9/30514.00/Silverlight.exe
 http://download.microsoft.com/download/F/8/C/F8C0EACB-92D0-4722-9B18-965DD2A681E9/30514.00/Silverlight_x64.exe
