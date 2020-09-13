@@ -1228,7 +1228,6 @@ Func CalcGUISize()
   If ($reg_val = "") Then
     $reg_val = $default_logpixels
   EndIf
-  $dlgheight = 560 * $reg_val / $default_logpixels
   If ShowGUIInGerman() Then
     $txtwidth = 90 * $reg_val / $default_logpixels
   Else
@@ -1240,6 +1239,10 @@ Func CalcGUISize()
   $btnheight = 30 * $reg_val / $default_logpixels
   $txtxoffset = 10 * $reg_val / $default_logpixels
   $txtyoffset = 10 * $reg_val / $default_logpixels
+  $groupwidth = 8 * $txtwidth + 2 * $txtxoffset
+  $groupheight_lng = 4 * $txtheight
+  $groupheight_glb = 2 * $txtheight
+  $dlgheight = 560 * $reg_val / $default_logpixels + $groupheight_lng
   Return 0
 EndFunc
 
@@ -1248,9 +1251,6 @@ AutoItSetOption("GUICloseOnESC", 0)
 AutoItSetOption("TrayAutoPause", 0)
 AutoItSetOption("TrayIconHide", 1)
 CalcGUISize()
-$groupwidth = 8 * $txtwidth + 2 * $txtxoffset
-$groupheight_lng = 4 * $txtheight
-$groupheight_glb = 2 * $txtheight
 $maindlg = GUICreate($title, $groupwidth + 4 * $txtxoffset, $dlgheight)
 GUISetFont(8.5, 400, 0, "Sans Serif")
 If ($CmdLine[0] > 0) AND (StringRight($CmdLine[$CmdLine[0]], 4) = ".ini") Then
@@ -1287,7 +1287,7 @@ EndIf
 ;  Tab control
 $txtxpos = $txtxoffset
 $txtypos = $txtyoffset + $txtheight
-GuiCtrlCreateTab($txtxpos, $txtypos, $groupwidth + 2 * $txtxoffset, $groupheight_lng + 5 * $groupheight_glb + 3.5 * $txtyoffset)
+GuiCtrlCreateTab($txtxpos, $txtypos, $groupwidth + 2 * $txtxoffset, 2 * $groupheight_lng + 5 * $groupheight_glb + 3.5 * $txtyoffset)
 
 ;  Operating Systems' Tab
 $tabitemfocused = GuiCtrlCreateTabItem("Windows")
@@ -2633,7 +2633,7 @@ GUICtrlSetState($tabitemfocused, $GUI_SHOW)
 
 ;  Options group
 $txtxpos = $txtxoffset
-$txtypos = $groupheight_lng + 5 * $groupheight_glb + 7 * $txtyoffset
+$txtypos = 2 * $groupheight_lng + 5 * $groupheight_glb + 7 * $txtyoffset
 
 If ShowGUIInGerman() Then
   GUICtrlCreateGroup("Optionen", $txtxpos, $txtypos, $groupwidth + 2 * $txtxoffset,  $groupheight_lng)
