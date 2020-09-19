@@ -1,0 +1,28 @@
+{
+  "name": "proxy-http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rules.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "promise-defer": "^1.0.0"
+  },
+  "devDependencies": {
+    "@jest/globals": "^26.4.2",
+    "jest": "^26.4.2"
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/tests/**/*-test.js",
+      "<rootDir>/tests/*-test.js"
+    ],
+    "testPathIgnorePatterns": [
+      "node_modules/"
+    ]
+  }
+}
